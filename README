@@ -1,0 +1,13 @@
+For imagemagick on OS X with brew:
+
+brew install imagemagick
+
+On ubuntu:
+
+sudo apt-get install libmagick9-dev
+
+To set up geo-spacial indexing, need to run:
+
+http://localhost:4567/people?long=123.1&lat=22.2&guid=4ed11826716eb233ca000001
+
+db.people.ensureIndex( { location : "2d" } )
